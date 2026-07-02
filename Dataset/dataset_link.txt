@@ -1,0 +1,62 @@
+==========================================================
+            Glasses Detection & Classification
+                    Dataset Links
+==========================================================
+
+This repository does not include the datasets because of
+their large size. Please download them using the links below.
+
+----------------------------------------------------------
+1. Classification Dataset
+----------------------------------------------------------
+
+Description:
+Binary image classification dataset containing two classes:
+• Glasses
+• No Glasses
+
+Google Drive:
+https://drive.google.com/drive/folders/11IfcFQsFk2ok9Z-qjt8aOPJl_JWRm3aq?usp=drive_link
+
+----------------------------------------------------------
+2. Detection Dataset
+----------------------------------------------------------
+
+Description:
+Object Detection dataset annotated with bounding boxes for
+glasses. The dataset is provided in COCO format and contains
+training, validation, and testing splits.
+
+Google Drive:
+https://drive.google.com/drive/folders/1MBSXP-6AVRt-L2n0lKPwgucAWUMCt118?usp=drive_link
+
+----------------------------------------------------------
+Dataset Information
+----------------------------------------------------------
+
+Classification
+--------------
+• Task: Binary Classification
+• Classes:
+  - Glasses
+  - No Glasses
+• Augmented to approximately 1000 images.
+
+Detection
+----------
+• Task: Object Detection
+• Annotation Format: COCO JSON
+• Object Class:
+  - Glasses
+• Augmented to approximately 1000 images.
+
+----------------------------------------------------------
+How to Use
+----------------------------------------------------------
+
+1. Download both datasets from the links above.
+2. Extract the downloaded folders.
+3. Place them according to your preferred directory structure.
+4. Update the dataset paths in the training notebooks if necessary.
+
+==========================================================
